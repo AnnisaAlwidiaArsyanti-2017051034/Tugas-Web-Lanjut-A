@@ -18,6 +18,7 @@ class Pages extends BaseController
         $data['title'] = ucfirst($page); // Capitalize the first letter
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         return view('template/header', $data)
             . view('pages/' . $page)
             . view('template/footer');
@@ -30,5 +31,10 @@ class Pages extends BaseController
         return view('pages/' . $page);
 >>>>>>> 3f46826 (comit)
 >>>>>>> d81f7ee (comit)
+=======
+        return view('template/header', $data)
+            . view('pages/' . $page)
+            . view('template/footer');
+>>>>>>> 0a3536ec322d74616c9ca3d8cac64d2f2f057474
     }
 }

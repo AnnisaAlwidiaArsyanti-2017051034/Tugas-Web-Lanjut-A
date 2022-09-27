@@ -14,6 +14,7 @@ class MahasiswaController extends BaseController
         'mahasiswa' => $mahasiswa,            
         ];
 <<<<<<< HEAD
+<<<<<<< HEAD
     return view('template/header', $data)
             . view('mahasiswa/list', $data)
             . view('template/footer');
@@ -26,12 +27,18 @@ class MahasiswaController extends BaseController
     return view('mahasiswa/list', $data);
 >>>>>>> 3f46826 (comit)
 >>>>>>> d81f7ee (comit)
+=======
+    return view('template/header', $data)
+            . view('mahasiswa/list', $data)
+            . view('template/footer');
+>>>>>>> 0a3536ec322d74616c9ca3d8cac64d2f2f057474
     }
 
     public function create(){
         $data = [
             'title' => 'Create Mahasiswa',         
         ];
+<<<<<<< HEAD
 <<<<<<< HEAD
     return view('template/header', $data)
             . view('mahasiswa/create', $data)
@@ -45,6 +52,11 @@ class MahasiswaController extends BaseController
     return view('mahasiswa/create', $data);
 >>>>>>> 3f46826 (comit)
 >>>>>>> d81f7ee (comit)
+=======
+    return view('template/header', $data)
+            . view('mahasiswa/create', $data)
+            . view('template/footer');
+>>>>>>> 0a3536ec322d74616c9ca3d8cac64d2f2f057474
     }
 
     public function store(){
@@ -75,9 +87,12 @@ class MahasiswaController extends BaseController
     public function edit($id){
         $mahasiswaModel = new Mahasiswa();
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> d81f7ee (comit)
+=======
+>>>>>>> 0a3536ec322d74616c9ca3d8cac64d2f2f057474
         $mahasiswa = $mahasiswaModel->find($id);
         $data = [
             'title' => 'Edit Mahasiswa'
@@ -85,6 +100,7 @@ class MahasiswaController extends BaseController
         return view('template/header', $data)
             . view('mahasiswa/edit', $mahasiswa)
             . view('template/footer');
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -95,6 +111,8 @@ class MahasiswaController extends BaseController
         return view('mahasiswa/edit', $data);
 >>>>>>> 3f46826 (comit)
 >>>>>>> d81f7ee (comit)
+=======
+>>>>>>> 0a3536ec322d74616c9ca3d8cac64d2f2f057474
     }
 
     public function update($id){

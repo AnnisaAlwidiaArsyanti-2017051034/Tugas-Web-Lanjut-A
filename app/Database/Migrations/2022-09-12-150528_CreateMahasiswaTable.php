@@ -27,6 +27,7 @@ class CreateMahasiswaTable extends Migration
                 'type' => 'TEXT',
             ],
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -36,6 +37,8 @@ class CreateMahasiswaTable extends Migration
             ],
 >>>>>>> 3f46826 (comit)
 >>>>>>> d81f7ee (comit)
+=======
+>>>>>>> 0a3536ec322d74616c9ca3d8cac64d2f2f057474
             'created_at' => [
                 'type' => 'DATETIME',
                 'null' => 'true',

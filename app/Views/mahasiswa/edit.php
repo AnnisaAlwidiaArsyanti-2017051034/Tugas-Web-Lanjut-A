@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -6,6 +7,8 @@
 <?= $this->section('content'); ?>
 >>>>>>> 3f46826 (comit)
 >>>>>>> d81f7ee (comit)
+=======
+>>>>>>> 0a3536ec322d74616c9ca3d8cac64d2f2f057474
 <div class="p-4">
 <form action="/update/<?= $id ?>" method="post">
     <div class="form-group">
@@ -23,6 +26,7 @@
     <button type="submit" class="btn btn-primary">Submit</button>
 </form>
 <<<<<<< HEAD
+<<<<<<< HEAD
 </div>
 =======
 <<<<<<< HEAD
@@ -33,3 +37,6 @@
 <?= $this->endSection('content'); ?>
 >>>>>>> 3f46826 (comit)
 >>>>>>> d81f7ee (comit)
+=======
+</div>
+>>>>>>> 0a3536ec322d74616c9ca3d8cac64d2f2f057474
