@@ -26,19 +26,10 @@ class CreateMahasiswaTable extends Migration
             'alamat' => [
                 'type' => 'TEXT',
             ],
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
             'deskripsi' => [
                 'type' => 'VARCHAR',
                 'constraint' => '255',
             ],
->>>>>>> 3f46826 (comit)
->>>>>>> d81f7ee (comit)
-=======
->>>>>>> 0a3536ec322d74616c9ca3d8cac64d2f2f057474
             'created_at' => [
                 'type' => 'DATETIME',
                 'null' => 'true',
